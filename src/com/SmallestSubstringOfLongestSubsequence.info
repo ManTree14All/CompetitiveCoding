@@ -1,0 +1,24 @@
+FOR A STRING "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+This program finds the length of smallest substring carrying maximum subsequence characters.
+
+Example:
+
+For Input:
+ABCDEFMNOPQRSTGHRFUV
+Number of subsequence possible in race
+ABCDEFMNOPQRSTGH (8 sequenced characters,  length 16)
+MNOPQRSTGHRFUV (10 sequenced characters,  length 14)
+RF (10 sequenced characters,  length 14)
+
+So the output of this should be 14
+
+Similarly for the below input:
+ABCJKDELMNBC
+Number of subsequence possible in race:
+ABCJKDE (5 sequenced characters,  length 7)
+JKDELMN (5 sequenced characters,  length 7)
+BC (2 sequenced characters,  length 2)
+
+So the output of this should be 7
+
